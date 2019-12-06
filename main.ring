@@ -1,12 +1,12 @@
 func main
 	C_LINESIZE = 80
 	? copy("=",C_LINESIZE)
-	? "BMICalculator Package"
+	? "GoGame Package"
 	? copy("=",C_LINESIZE)
-	? "BMICalculator package for the Ring programming language"
-	? "See the folder : ring/applications/bmicalculator"
+	? "GoGame package for the Ring programming language"
+	? "See the folder : ring/applications/go"
 	? copy("=",C_LINESIZE)
 	cDir = currentdir()
-	chdir(exefolder()+"/../applications/bmicalculator")
-	system("ring BMI_Calculator.ring")
+	chdir(exefolder()+"/../applications/go")
+	system("ring GoGame.ring")
 	chdir(cDir)
